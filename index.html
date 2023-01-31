@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>업다운 게임</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1>업다운 게임</h1>
+    <h3>기회는 단 10번!!!</h3>
+    <form>
+        <label for="guess_number">
+            숫자 입력 : 
+            <input id="guess_number" type="number" min="1" max="100"/>
+            <input id="guess_submit" type="submit" value="과연?"/>
+        </label>
+    </form>
+    <div id="render">
+        <p id="lists"></p>
+        <p id="result"></p>
+        <p id="hint"></p>
+        <p id="reset"></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
